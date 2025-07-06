@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NASA Space Explorer App</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1><img src="nasa.png" alt="NASA"> Space Explorer</h1>
+
+        <div class="date-picker">
+            <label for="date">Select a date:</label>
+            <input type="date" id="dateInput" name="date">
+
+        </div>
+
+        <div id="photo-container"></div>
+
+        <!-- Modal for full description -->
+        <div id="modal" class="modal">
+          <div class="modal-content">
+            <span id="modal-close" class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <img id="modal-img" src="" alt="" />
+            <p id="modal-desc"></p>
+          </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
